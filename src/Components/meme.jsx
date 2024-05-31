@@ -41,6 +41,7 @@ export default function Meme() {
             <div className="form">
                 {/*Input fiels for the top text of the meme*/}
                 <label>Top Text
+                    <br></br>
                 <input 
                     type="text"
                     placeholder="Top text"
@@ -51,6 +52,7 @@ export default function Meme() {
                 />
                 </label>
                 <label> Bottom Text
+                    <br></br>
                 <input 
                     type="text"
                     placeholder="Bottom text"
