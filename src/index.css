@@ -47,6 +47,8 @@ main {
   border-radius: 5px;
   border: 1px solid #D5D4D8;
   text-indent: 5px;
+  height: 34px;
+  width: 500px;
 }
 
 .form--button {
@@ -66,6 +68,9 @@ main {
 .meme--image {
   max-width: 100%;
   border-radius: 3px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .meme--text {
@@ -82,15 +87,15 @@ main {
   color: white;
   letter-spacing: 1px;
   text-shadow:
-      2px 2px 0 #000,
-      -2px -2px 0 #000,
-      2px -2px 0 #000,
-      -2px 2px 0 #000,
-      0 2px 0 #000,
-      2px 0 0 #000,
-      0 -2px 0 #000,
-      -2px 0 0 #000,
-      2px 2px 5px #000;
+  2px 2px 0 #000,
+  -2px -2px 0 #000,
+  2px -2px 0 #000,
+  -2px 2px 0 #000,
+  0 2px 0 #000,
+  2px 0 0 #000,
+  0 -2px 0 #000,
+  -2px 0 0 #000,
+  2px 2px 5px #000;
 }
 
 .bottom {
