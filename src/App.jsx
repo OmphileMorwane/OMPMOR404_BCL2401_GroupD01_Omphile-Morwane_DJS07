@@ -1,14 +1,12 @@
 import React from "react";
 import Header from "./Components/Header";
-import meme from "./Components/meme";
-
+import Meme from "./Components/Meme";
 
 export default function App() {
   return (
     <div>
       <Header />
-      <meme/>
+      <Meme />
     </div>
-  )
-
+  );
 }
