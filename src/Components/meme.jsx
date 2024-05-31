@@ -37,7 +37,7 @@ export default function Meme() {
     }
     
     return (
-        <main>
+        <main className="meme-container">
             <div className="form">
                 {/*Input fiels for the top text of the meme*/}
                 <label>Top Text
